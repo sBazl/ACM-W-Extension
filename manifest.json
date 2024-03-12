@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "T-Minus",
+    "description": "Extension that counts down to the first upcoming date saved by user",
+    "version": "1.0",
+    "icons": {
+      "16": "ext-icon.png"
+    },
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
