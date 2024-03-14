@@ -1,0 +1,45 @@
+/* stylesheets need to be linked to the html file you want them to style. 
+    ex) this is linked to the index.html file in the <head> tag at the top
+    of the page
+*/
+
+/* controls the styling for everything in the body tag (<body><body>) */
+body {
+    background-color: #2A324B;
+    color:white;
+    text-align: center;
+}
+
+input {
+    border: 2px solid #8DAA91;
+    border-radius: 4px;
+    padding: 12px 10px;
+    background-color: white;
+
+}
+/* controls the styling the input tag of type date*/
+
+input[type="date"] {
+    font-family: "Helvetica", arial, sans-serif;
+}
+button {
+    background-color: #8DAA91;
+    height: 40px;
+    width:15%;
+    border:none;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* if you want to refer to a specific item in the html doc using its id use `#`
+ if you want to refer to a class use `.` */
+
+#container{
+    min-width: 200px;
+}
+.extra {
+    color: rgb(255, 216, 116);
+}

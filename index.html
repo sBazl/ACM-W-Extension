@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="stylesheet.css">
 
     <title>Countdown</title>
 </head>
 <body>
-  <!-- Add a title or some guided text for the user using the heading tags {h1, h2, h3...h6}-->
+  <!-- PT 1: Add a title or some guided text for the user using the heading tags {h1, h2, h3...h6}-->
 
-    <h1 id="info"> Largest Text H1</h1>
-    <h2>Smaller Text</h2>
+    <h1 id="info"> Countdown Extension w/ ACM-W</h1>
+    <h2> Want to see when your next break is?</h2>
 
-    <!-- Add a button element where for the user to click and add a date  **include btn text**-->
+    <!-- PT 1: Add a button element where for the user to click and add a date  **include btn text**-->
     
-        <!-- {REPLACE W/ CODE}-->
-
+    <button> ADD DATE</button>
     
 
     <div id="input">
-        <!-- Add a form/input element where for the user will input their date/date title-->
-                <!-- {REPLACE W/ CODE}-->
-
+        <!-- PT 1: Add a form/input element where for the user will input their date/date title-->
+                <input type="text" placeholder="Event Title? (optional)"></input>
+                <input type="date"></input>
         <div>
-            <!-- add a button to save the date-->
-                    <!-- {REPLACE W/ CODE}-->
+            <!-- PT: 1 add a button to save the date-->
+            <button> SAVE</button>
 
         </div>
 
@@ -33,7 +32,9 @@
     
     <!--This div is the container for our timer-->
     <div id="container">
-        <!-- add a default string representation that will be displayed when there are no saved dates -->
+        <!-- PT 1: add a default string representation that will be displayed when there are no saved dates -->
+        <h3 id="timer"> You haven't added any dates yet :( </h3>
+        <p class="extra"> Organized by girls.code()</p>
     </div>
 
 </body>
