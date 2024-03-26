@@ -11,20 +11,20 @@
   <!-- PT 1: Add a title or some guided text for the user using the heading tags {h1, h2, h3...h6}-->
 
     <h1 id="info"> Countdown Extension w/ ACM-W</h1>
-    <h2> Want to see when your next break is?</h2>
+    <h2 id="break"> Want to see when your next break is?</h2>
 
     <!-- PT 1: Add a button element where for the user to click and add a date  **include btn text**-->
     
-    <button> ADD DATE</button>
+    <button id="addBtn"> ADD DATE</button>
     
 
     <div id="input">
         <!-- PT 1: Add a form/input element where for the user will input their date/date title-->
-                <input type="text" placeholder="Event Title? (optional)"></input>
-                <input type="date"></input>
+                <input type="text" id="breakName"  placeholder="Event Title? (optional)"></input>
+                <input type="date" id="newDate"></input>
         <div>
-            <!-- PT: 1 add a button to save the date-->
-            <button> SAVE</button>
+            <!-- PT: 1 add a button to save the date that the user inputs-->
+            <button id="saveBtn"> SAVE</button>
 
         </div>
 
@@ -38,5 +38,5 @@
     </div>
 
 </body>
-<!-- <script src="script.js"></script> -->
+<script src="script.js"></script>
 </html>
