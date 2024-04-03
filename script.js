@@ -117,7 +117,6 @@ function initTimer() {
     }, 1000);
 
     }
-    console.log ('list', allBreaks.length)
 }
 
 //-----------------FUNCTION CALLS---------------------------------------

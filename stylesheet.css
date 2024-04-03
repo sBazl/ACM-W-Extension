@@ -25,7 +25,7 @@ input[type="date"] {
 button {
     background-color: #8DAA91;
     height: 40px;
-    width:15%;
+    width:max-content;
     border:none;
     border-radius: 15px;
     margin-top: 10px;
