@@ -5,14 +5,16 @@ Our first project is building a [Chrome Extension](https://developer.chrome.com/
 The required manifest file and sample icon is included.
 
 >[!NOTE]
-> This is intended for beginners, so all skill levels are welcome to participate. Our members should feel comfortable asking questions at any point.
->
-> **Goal**: Take what you learn to create your own **personal projects** for your portfolios
+> This is intended for beginners, so all skill levels are welcome to participate. Our members should feel comfortable asking questions at any point.  
+> **Goal**: Take what you learn to create your own **personal projects** for your portfolios  
+
+Starter directions for HTML are on the `html-starter` branch; Starter directions for javascript are on the `js-starter` branch; final project is on the `main` branch
 
 ### Geting Started
 1. Create a GitHub account with your UGA email if you haven't already
 2. [Download Visual Studio Code](https://code.visualstudio.com/download) (preferred because this will be used in the demo) or another IDE
 3. Clone this repository and follow along :relaxed:	!
+
 
 **Author:** Sterlane Bazile  
 **Last Updated:** 3/11/2024 
